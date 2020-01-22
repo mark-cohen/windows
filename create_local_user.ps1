@@ -6,7 +6,7 @@ $Password = Read-Host -AsSecureString
 $Name = "susan-staff"
 $FullName = "Susan Staffer"
 $Description = "Staff Account"
-$Group - "Users"
+$Group = "Users"
 
 # Create the user
 New-LocalUser $Name -Password $Password -FullName $FullName -Description $Description
