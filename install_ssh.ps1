@@ -27,4 +27,5 @@ New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Wi
 
 # OPTIONAL:
 # install OpenSSH utilities:
-# Install-Module -Name OpenSSHUtils -RequiredVersion 0.0.2.0
+# Install-Module -Name OpenSSHUtils -RequiredVersion 1.0.0.1
+# Check current version: https://www.powershellgallery.com/packages/OpenSSHUtils/1.0.0.1
